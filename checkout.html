@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StyleHub | Checkout</title>
+
+    <!-- Common CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header & Navigation -->
+    <header>
+        <h1>StyleHub</h1>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="cart.html">Cart</a>
+        </nav>
+    </header>
+
+
+    <!-- Checkout Form -->
+    <main>
+        <section class="checkout">
+            <h2>Checkout</h2>
+
+            <form>
+
+                <!-- Customer Name -->
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+
+                <!-- Address -->
+                <label for="address">Address:</label>
+                <textarea id="address" name="address" rows="3" required></textarea>
+
+
+                <!-- City -->
+                <label for="city">City:</label>
+                <input type="text" id="city" name="city" required>
+
+
+                <!-- Pincode -->
+                <label for="pincode">Pincode:</label>
+                <input type="text" id="pincode" name="pincode" required>
+
+
+                <!-- Phone -->
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required>
+
+
+                <!-- Payment Method -->
+                <fieldset>
+                    <legend>Payment Method</legend>
+
+                    <label>
+                        <input type="radio"
+                               name="payment"
+                               value="cod"
+                               required>
+                        Cash on Delivery
+                    </label>
+
+                    <label>
+                        <input type="radio"
+                               name="payment"
+                               value="upi">
+                        UPI
+                    </label>
+
+                    <label>
+                        <input type="radio"
+                               name="payment"
+                               value="card">
+                        Credit / Debit Card
+                    </label>
+                </fieldset>
+
+
+                <!-- Place Order -->
+                <button type="submit">Place Order</button>
+
+            </form>
+        </section>
+    </main>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>Contact: support@stylehub.com | +91 98765 43210</p>
+        <p>&copy; 2026 StyleHub. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
+```
